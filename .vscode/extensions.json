@@ -1,5 +1,7 @@
 {
   "recommendations": [
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "tabnine.tabnine-vscode",
+    "ms-vscode.vscode-typescript-next"
   ]
 }
