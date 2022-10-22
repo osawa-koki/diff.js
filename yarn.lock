@@ -147,6 +147,11 @@ debug@^3.2.7:
   dependencies:
     ms "^2.1.1"
 
+diff-match-patch-typescript@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/diff-match-patch-typescript/-/diff-match-patch-typescript-1.0.8.tgz#9e4f801f68efe6ce40c92f4bf9ed5ed4777927e8"
+  integrity sha512-UPvsAUDje0DUOhx5V5jrXPe/5GHyBwZzS4myPFDM3Tbd/xJQyXbMkklc6aFqKBYzyhtdSMPD1CHHTDye/7cgow==
+
 diff@^4.0.1:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
