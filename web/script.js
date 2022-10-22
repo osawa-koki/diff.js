@@ -23,8 +23,28 @@ button?.addEventListener("click", () => {
 
   dmp.diff_cleanupSemantic(diff);
 
-  diff.forEach(unit => {
+  // 結果要素を空にする。
+  while(result.firstChild) {
+    result.removeChild(result.firstChild);
+  } 
 
+  // 差分ユニットを走査
+  diff.forEach(unit => {
+    let operation;
+    switch (unit[0]) {
+      case -1:
+        operation = "DELETE";
+        break;
+      case 0:
+        operation = "EQUAL";
+        break;
+      case 1:
+        operation = "INSERT";
+        break;
+    };
+    const node = document.createElement("span");
+    node.classList.add(operation);
+    result.appendChild(node);
   });
   
 });
