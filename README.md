@@ -24,4 +24,6 @@ npx tsc --init
 
 yarn add tslint
 npx tslint --init
+
+yarn add http-server
 ```
