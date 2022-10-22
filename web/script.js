@@ -44,6 +44,7 @@ button?.addEventListener("click", () => {
     };
     const node = document.createElement("span");
     node.classList.add(operation);
+    node.textContent = unit[1];
     result.appendChild(node);
   });
   

@@ -59,4 +59,30 @@ main {
       cursor: pointer;
     }
   }
+  #resultContainer {
+    margin-top: 50px;
+    .DELETE {
+      background-color: rgba(red, 0.2);
+      padding: 5px;
+    }
+    .DELETE::before {
+      content: "-";
+      color: red;
+      padding: 2px;
+      margin-right: 10px;
+    }
+    .EQUAL {
+      background-color: transparent;
+    }
+    .INSERT {
+      background-color: rgba(cyan, 0.2);
+      padding: 5px;
+    }
+    .INSERT::before {
+      content: "+";
+      color: blue;
+      padding: 2px;
+      margin-right: 10px;
+    }
+  }
 }
