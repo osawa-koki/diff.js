@@ -6,5 +6,8 @@
   "repository": "https://github.com/osawa-koki/diff.ts.git",
   "author": "osawa-koki <osawa-koki@github.com>",
   "license": "Apache-2.0",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
 }
