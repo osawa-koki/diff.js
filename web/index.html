@@ -14,9 +14,21 @@
   </header>
   <main>
     <div class="container">
-      <div class="diff-from">
-        
+      <div class="diff-compare">
+        <div id="diff-compare-A" class="diff-compare-item">
+          <div class="title">テキストA</div>
+          <textarea class="text-value"></textarea>
+        </div>
+        <div id="diff-compare-B" class="diff-compare-item">
+          <div class="title">テキストB</div>
+          <textarea class="text-value"></textarea>
+        </div>
       </div>
+      <div id="buttonContainer">
+        <button id="diff-button">DIFF!!!</button>
+      </div>
+      <div id="proceedingContainer"></div>
+      <div id="resultContainer"></div>
     </div>
   </main>
   <footer></footer>

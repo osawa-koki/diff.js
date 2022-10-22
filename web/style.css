@@ -24,3 +24,37 @@ header h1 {
   justify-content: center;
   align-items: center;
 }
+
+main {
+  margin: 100px auto;
+  max-width: 1200px;
+}
+main .diff-compare {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .diff-compare .diff-compare-item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 500px;
+}
+main .diff-compare .diff-compare-item .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+main .diff-compare .diff-compare-item .text-value {
+  height: 250px;
+  padding: 10px;
+  resize: none;
+}
+main #buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+}
+main #buttonContainer button {
+  padding: 10px 25px;
+  cursor: pointer;
+}
