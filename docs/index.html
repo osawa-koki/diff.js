@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>diff.ts</title>
+  <link rel="shortcut icon" href="data/img/Logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="data/img/Logo.png" alt="ロゴ" />
+    <h1>diff.ts</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div class="diff-compare">
+        <div class="diff-compare-item">
+          <div class="title">テキストA</div>
+          <textarea id="diff-compare-A" class="text-value"></textarea>
+        </div>
+        <div class="diff-compare-item">
+          <div class="title">テキストB</div>
+          <textarea id="diff-compare-B" class="text-value"></textarea>
+        </div>
+      </div>
+      <div id="buttonContainer">
+        <button id="diff-button">DIFF!!!</button>
+      </div>
+      <div id="proceedingContainer"></div>
+      <div id="resultContainer"></div>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="diffmatchpatch.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
