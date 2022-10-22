@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500"
+   height="300"
+   viewBox="0 0 500 300.00002"
+   version="1.1"
+   id="svg135"
+   sodipodi:docname="Logo.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:export-filename="Logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview137"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.73851712"
+     inkscape:cx="142.1768"
+     inkscape:cy="236.96133"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs132">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1289"
+       x="-0.062692063"
+       y="-0.14788383"
+       width="1.1253841"
+       height="1.2957677">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.5337765"
+         id="feGaussianBlur1291" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:133.333px;font-family:Meiryo;-inkscape-font-specification:'Meiryo, Normal';mix-blend-mode:normal;fill:#ff8c00;fill-opacity:1;stroke-width:3;stroke-opacity:0.614325;filter:url(#filter1289)"
+       x="59.578838"
+       y="265.39667"
+       id="text1029"
+       transform="matrix(1.3504343,0,0,1.3504343,-40.30592,-140.12759)"><tspan
+         sodipodi:role="line"
+         id="tspan1027"
+         x="59.578838"
+         y="265.39667">&lt; /&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:96px;font-family:Meiryo;-inkscape-font-specification:'Meiryo, Normal';fill:#ff0000;fill-opacity:1;stroke-width:3;stroke-opacity:0.614325"
+       x="39.267876"
+       y="112.38738"
+       id="text237"><tspan
+         sodipodi:role="line"
+         x="39.267876"
+         y="112.38738"
+         id="tspan239">- Hi</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:133.333px;font-family:Meiryo;-inkscape-font-specification:'Meiryo, Normal';fill:#008c00;fill-opacity:1;stroke-width:3;stroke-opacity:0.614325"
+       x="12.186584"
+       y="253.21013"
+       id="text295"><tspan
+         sodipodi:role="line"
+         id="tspan293"
+         x="12.186584"
+         y="253.21013">+ Hello</tspan></text>
+  </g>
+</svg>
